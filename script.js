@@ -1,19 +1,21 @@
 // Bucle for
-const myList = ["velma", "scout", "jane", "john", "harry"]
+const myList = ["velma", "scout", "jane", "john", "harry"];
 
 for (let i = 0; i < myList.length; i++)
-  console.log(myList[i])
+  console.log(myList[i]);
 
 
 // Bucle while
-const i = 0
+let i = 0
 
-while (i < myList.length; i++)
-  console.log(myList[i])
+while (i < myList.length) {
+  console.log(myList[i]);
+  i++;
+}
 
 
 // Función flecha
 
-saludo = () => {
+const saludo = () => {
   return "Hola Mundo!"
 }
